@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.men:hover, .kids:hover {
+    color: #ff6f61;
+}
+.top-sellers-nav li a:focus {
+    color: #ff6f61;
+    border-bottom: 1px solid #ff6f61;
+    padding-bottom: 5px;
+}
+.new {
+    position: relative;
+}
+.new::after , .new::after {
+    content:"SALE";
+    position: absolute;
+    top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 1px 10px;
+}
+.new-white::after {
+    background-color: #fff;
+}
+.new-black::after {
+    background-color: #000;
+    color: wheat;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+.links li {
+    /* display: inline-block; */
+    position: absolute;
+}
+.img {
+    cursor: pointer;
+    transition: visibility .3s;
+    -webkit-transition: visibility .3s;
+    -moz-transition: visibility .3s;
+    -ms-transition: visibility .3s;
+    -o-transition: visibility .3s;
+}
+.img-second {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+.img-first:hover {
+    /* display: none; */
+}
+.img-first:hover .img-second{
+    /* display: block; */
+}
+
+
+
+
+
